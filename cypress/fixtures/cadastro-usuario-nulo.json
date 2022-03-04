@@ -1,0 +1,7 @@
+{
+    "errors": {
+        "username": [
+            "can't be blank"
+        ]
+    }
+}

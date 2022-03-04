@@ -1,0 +1,9 @@
+{
+    "user": {
+        "email": "teste123@gmail.com",
+        "username": "teste123",
+        "bio": null,
+        "image": "https://api.realworld.io/images/smiley-cyrus.jpeg",
+        "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RlMTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoidGVzdGUxMjMiLCJiaW8iOm51bGwsImltYWdlIjoiaHR0cHM6Ly9hcGkucmVhbHdvcmxkLmlvL2ltYWdlcy9zbWlsZXktY3lydXMuanBlZyIsImlhdCI6MTY0MjM2OTg2OSwiZXhwIjoxNjQ3NTUzODY5fQ.WCjM33NldgcCqvq6IR7pLEQBFQ2tOOFX_zzGqIwC-6E"
+}
+ }
