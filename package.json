@@ -18,8 +18,5 @@
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.2.0"
-  },
-  "dependencies": {
-    "cypress-aiotests-reporter": "^1.0.4"
   }
 }
