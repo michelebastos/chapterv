@@ -19,7 +19,6 @@ class Articles {
   }
 
   verificarArtigoCriado() {
-    cy.wait(400)
     cy.contains(articleName).should('be.visible')
 
     cy.get('h1').should('have.text', articleName)
