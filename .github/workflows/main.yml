@@ -1,0 +1,31 @@
+name: ci
+on: 
+
+  # execucacao por eventos
+  push:
+    branches:
+      - main
+  
+  # execucao programada
+  schedule:
+    - cron:  '00 12 11 * 1'
+    
+  # execucao manual  
+  workflow_dispatch:
+  
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Check out code 🛎
+        uses: actions/checkout@v2
+
+      - name: E2E & UI 🧪
+        uses: cypress-io/github-action@v2
+          
+      - name: Upload a Build Artifact
+        if: always()
+        uses: actions/upload-artifact@v2.2.4
+        with:
+          path: cypress/videos
